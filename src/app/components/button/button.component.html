@@ -1,0 +1,13 @@
+<button class="button">
+    @if (leftIcon) {
+        <app-icon [name]="leftIcon"></app-icon>
+    }
+    @if (label) {
+        <span>
+            {{ label }}
+        </span>
+    }
+    @if (rightIcon) {
+        <app-icon [name]="rightIcon"></app-icon>
+    }
+</button>

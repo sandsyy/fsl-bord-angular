@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Aeonik';
+    src: url('assets/fonts/AeonikProTRIAL-Regular.otf') format('otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root,
+.theme-claims {
+  // Secondary
+  --secondary-05: #{rgba(255, 255, 255, 0.05)};
+  --secondary-10: #{rgba(255, 255, 255, 0.1)};
+  --secondary-25: #{rgba(255, 255, 255, 0.25)};
+  --secondary-50: #{rgba(255, 255, 255, 0.5)};
+  --secondary-100: #ffffff;
+
+  // Primary
+  --primary-05: #{rgba(34, 34, 34, 0.05)};
+  --primary-10: #{rgba(34, 34, 34, 0.1)};
+  --primary-25: #{rgba(34, 34, 34, 0.25)};
+  --primary-50: #{rgba(34, 34, 34, 0.5)};
+  --primary-100: #222222;
+
+  // Accent — Claims (#1C5D99)
+  --accent-05: #{rgba(28, 93, 153, 0.05)};
+  --accent-10: #{rgba(28, 93, 153, 0.1)};
+  --accent-25: #{rgba(28, 93, 153, 0.25)};
+  --accent-50: #{rgba(28, 93, 153, 0.5)};
+  --accent-100: #1c5d99;
+}
+
+.theme-premiums {
+  // Accent — Premiums (#0B5D1E)
+  --accent-05: #{rgba(11, 93, 30, 0.05)};
+  --accent-10: #{rgba(11, 93, 30, 0.1)};
+  --accent-25: #{rgba(11, 93, 30, 0.25)};
+  --accent-50: #{rgba(11, 93, 30, 0.5)};
+  --accent-100: #0b5d1e;
+}
+
+* {
+    font-family: 'Aeonik', sans-serif;
+}
